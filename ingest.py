@@ -71,10 +71,8 @@ def extract_and_filter_json(json_file):
 
     return filtered_data
 def json_slack_to_pdf():
-    # Get the current working directory
     current_directory = os.getcwd()
 
-    # JSON directory path (modify as needed)
     json_directory = os.path.join(current_directory, "source_documents")
 
     # List of JSON files in the directory
@@ -84,10 +82,8 @@ def json_slack_to_pdf():
     pdf_filename = os.path.join(json_directory, "filtered_data.pdf")
     doc = SimpleDocTemplate(pdf_filename, pagesize=letter)
 
-    # Create a list of paragraphs with the filtered data
     story = []
 
-    # Define a style for the paragraphs
     styles = getSampleStyleSheet()
     style = styles["Normal"]
 
@@ -101,7 +97,6 @@ def json_slack_to_pdf():
             p = Paragraph(text, style)
             story.append(p)
 
-    # Build the PDF document
     doc.build(story)
     # Delete the old JSON files
     #for json_file in json_files:
