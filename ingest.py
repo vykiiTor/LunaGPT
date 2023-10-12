@@ -6,6 +6,12 @@ from dotenv import load_dotenv
 from multiprocessing import Pool
 from tqdm import tqdm
 
+import json
+from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate, Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
+from datetime import datetime
+
 from langchain.document_loaders import (
     CSVLoader,
     EverNoteLoader,
@@ -18,6 +24,7 @@ from langchain.document_loaders import (
     UnstructuredODTLoader,
     UnstructuredPowerPointLoader,
     UnstructuredWordDocumentLoader,
+    #JSONLoader,
 )
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -40,6 +47,65 @@ embeddings_model_name = os.environ.get('EMBEDDINGS_MODEL_NAME')
 chunk_size = 500
 chunk_overlap = 50
 
+# Create a function to extract and filter JSON data
+def extract_and_filter_json(json_file):
+    with open(json_file, "r") as json_file:
+        data = json.load(json_file)
+
+    filtered_data = []
+
+    for item in data:
+        if all(key in item for key in ["type", "text", "ts", "user"]):
+            user_profile = item.get("user_profile", {})
+            user_name = user_profile.get("name", "")
+            ts_to_date = datetime.utcfromtimestamp(float(item['ts']))
+            date_time = ts_to_date.strftime("%m/%d/%Y, %H:%M")
+
+            filtered_data.append({
+                "type": item["type"],
+                "text": item["text"],
+                "ts": date_time,
+                "user": item["user"],
+                "user_name": user_name
+            })
+
+    return filtered_data
+def json_slack_to_pdf():
+    # Get the current working directory
+    current_directory = os.getcwd()
+
+    # JSON directory path (modify as needed)
+    json_directory = os.path.join(current_directory, "source_documents")
+
+    # List of JSON files in the directory
+    json_files = [os.path.join(json_directory, file) for file in os.listdir(json_directory) if file.endswith(".json")]
+
+    # Create a PDF document
+    pdf_filename = os.path.join(json_directory, "filtered_data.pdf")
+    doc = SimpleDocTemplate(pdf_filename, pagesize=letter)
+
+    # Create a list of paragraphs with the filtered data
+    story = []
+
+    # Define a style for the paragraphs
+    styles = getSampleStyleSheet()
+    style = styles["Normal"]
+
+    # Process each JSON file in the directory
+    for json_file in json_files:
+        filtered_data = extract_and_filter_json(json_file)
+    
+        # Add the filtered data to the PDF
+        for item in filtered_data:
+            text = f"Type: {item['type']}\nText: {item['text']}\nTimestamp: {item['ts']}\nUser: {item['user']}\nUser Name: {item['user_name']}\n\n"
+            p = Paragraph(text, style)
+            story.append(p)
+
+    # Build the PDF document
+    doc.build(story)
+    # Delete the old JSON files
+    #for json_file in json_files:
+        #os.remove(json_file)
 
 # Custom document loaders
 class MyElmLoader(UnstructuredEmailLoader):
@@ -80,6 +146,7 @@ LOADER_MAPPING = {
     ".ppt": (UnstructuredPowerPointLoader, {}),
     ".pptx": (UnstructuredPowerPointLoader, {}),
     ".txt": (TextLoader, {"encoding": "utf8"}),
+    #".json": (JSONLoader, {"jq_schema":"text"})
     # Add more mappings for other file extensions and loaders as needed
 }
 
@@ -151,6 +218,7 @@ def does_vectorstore_exist(persist_directory: str, embeddings: HuggingFaceEmbedd
     return True
 
 def main():
+    json_slack_to_pdf()
     # Create embeddings
     embeddings = HuggingFaceEmbeddings(model_name=embeddings_model_name)
     # Chroma client
