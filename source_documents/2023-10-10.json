@@ -1,0 +1,1720 @@
+[
+    {
+        "client_msg_id": "f4bece5a-cee1-42f4-94f5-6bf6966b8985",
+        "type": "message",
+        "text": "hi",
+        "user": "U05UJ8XLN78",
+        "ts": "1696923857.872649",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a8bcU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "87dc0de0-61b8-4a6e-83ce-6c206e9f8d15",
+        "type": "message",
+        "text": "<@U05UXJYANCT> who are you",
+        "user": "U05UJ8XLN78",
+        "ts": "1696923880.121299",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8fLqQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " who are you"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "42796615-e8ac-488f-ab29-8105f199e716",
+        "type": "message",
+        "text": "<@U05UXJYANCT> how ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696923923.903609",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8G\/XX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " how ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "73a4d1e1-378d-4fa3-aa0b-8c477877d2ff",
+        "type": "message",
+        "text": "<@U05UXJYANCT> whats an egg",
+        "user": "U05UJ8XLN78",
+        "ts": "1696924145.772689",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xS8Wc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " whats an egg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "222c418f-dc5e-472d-9eb4-4a6e07b5a755",
+        "type": "message",
+        "text": "<@U05UXJYANCT> what is an egg",
+        "user": "U05UJ8XLN78",
+        "ts": "1696925726.416319",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sf+VC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " what is an egg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "8b518e5c-c0da-438a-ac4f-8abcf7798a7b",
+        "type": "message",
+        "text": "<@U05UXJYANCT> whats an egg",
+        "user": "U05UJ8XLN78",
+        "ts": "1696927569.008409",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xS8Wc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " whats an egg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "7b91691a-c207-47ca-a546-261710c6d918",
+        "type": "message",
+        "text": "<@U05UXJYANCT> egg",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928053.291529",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N8sx1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " egg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "8b971c36-c8ee-478f-8776-6bf97053d422",
+        "type": "message",
+        "text": "hi",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928324.309059",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a8bcU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "3dfcc463-f4bb-4548-97e3-3fb96cd78140",
+        "type": "message",
+        "text": "<@U05UXJYANCT> yo",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928329.420369",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fkekg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " yo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696928329.420369",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1696928696.917509",
+        "reply_users": [
+            "U05UXJYANCT"
+        ],
+        "replies": [
+            {
+                "user": "U05UXJYANCT",
+                "ts": "1696928696.917509"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696928696.917509"
+    },
+    {
+        "client_msg_id": "7ce20cea-645a-4778-ba35-4ee66fee8cda",
+        "type": "message",
+        "text": "what is a cow",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928517.311879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tVCCY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what is a cow"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "44e5e22b-8b0a-44ff-be61-1f12c26d57ec",
+        "type": "message",
+        "text": "<@U05UXJYANCT> what is a dog ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928527.922089",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3rHAL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " what is a dog ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "ff08c850-087e-41ea-b86e-e6ab7269809a",
+        "type": "message",
+        "text": "what is a dog",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928671.848679",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1BDqe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what is a dog"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "d546080f-fee1-42df-b31b-0bda8a0d3397",
+        "type": "message",
+        "text": "<@U05UXJYANCT> what is a dog ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928679.500669",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3rHAL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " what is a dog ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696928679.500669",
+        "reply_count": 5,
+        "reply_users_count": 2,
+        "latest_reply": "1696928710.064829",
+        "reply_users": [
+            "U05UXJYANCT",
+            "U05UJ8XLN78"
+        ],
+        "replies": [
+            {
+                "user": "U05UXJYANCT",
+                "ts": "1696928682.009049"
+            },
+            {
+                "user": "U05UJ8XLN78",
+                "ts": "1696928692.692549"
+            },
+            {
+                "user": "U05UXJYANCT",
+                "ts": "1696928698.307329"
+            },
+            {
+                "user": "U05UJ8XLN78",
+                "ts": "1696928701.279339"
+            },
+            {
+                "user": "U05UXJYANCT",
+                "ts": "1696928710.064829"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696928710.064829"
+    },
+    {
+        "bot_id": "B05VAB47JJD",
+        "type": "message",
+        "text": " A dog is a domesticated animal that is part of the canine family. Dogs are known for their loyalty, intelligence, and affection for their owners. They are often used as working animals, such as for herding, guarding, and search and rescue. Dogs come in a variety of sizes, shapes, and colors, and can be found in many different breeds.",
+        "user": "U05UXJYANCT",
+        "ts": "1696928682.009049",
+        "app_id": "A05VAARA4JV",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Eawrt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A dog is a domesticated animal that is part of the canine family. Dogs are known for their loyalty, intelligence, and affection for their owners. They are often used as working animals, such as for herding, guarding, and search and rescue. Dogs come in a variety of sizes, shapes, and colors, and can be found in many different breeds."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05VAB47JJD",
+            "app_id": "A05VAARA4JV",
+            "name": "VictorBot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696339520,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696928679.500669",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "e60ba2a1-76eb-40f3-a227-7b3fb3aab1ea",
+        "type": "message",
+        "text": "<@U05UXJYANCT> what is a wave",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928692.692549",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A3gxG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " what is a wave"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696928679.500669",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "bot_id": "B05VAB47JJD",
+        "type": "message",
+        "text": " Hi there! How can I help you?",
+        "user": "U05UXJYANCT",
+        "ts": "1696928696.917509",
+        "app_id": "A05VAARA4JV",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LhT6A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi there! How can I help you?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05VAB47JJD",
+            "app_id": "A05VAARA4JV",
+            "name": "VictorBot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696339520,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696928329.420369",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "bot_id": "B05VAB47JJD",
+        "type": "message",
+        "text": " A wave is a disturbance that travels through a medium, such as air or water. Waves can be caused by a variety of sources, such as wind, earthquakes, and sound. Waves can also be generated artificially, such as with a loudspeaker. Waves can be described by their amplitude, frequency, and wavelength.",
+        "user": "U05UXJYANCT",
+        "ts": "1696928698.307329",
+        "app_id": "A05VAARA4JV",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "95t3S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A wave is a disturbance that travels through a medium, such as air or water. Waves can be caused by a variety of sources, such as wind, earthquakes, and sound. Waves can also be generated artificially, such as with a loudspeaker. Waves can be described by their amplitude, frequency, and wavelength."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05VAB47JJD",
+            "app_id": "A05VAARA4JV",
+            "name": "VictorBot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696339520,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696928679.500669",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "c95b47c9-6e41-4154-a617-a9d2812e0014",
+        "type": "message",
+        "text": "ok ty",
+        "user": "U05UJ8XLN78",
+        "ts": "1696928701.279339",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wPoJg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok ty"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696928679.500669",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "bot_id": "B05VAB47JJD",
+        "type": "message",
+        "text": " A wave is a disturbance that travels through a medium, such as air or water. Waves can be caused by a variety of sources, such as wind, earthquakes, and sound. Waves can also be generated artificially, such as with a loudspeaker. Waves can be described by their amplitude, frequency, and wavelength.",
+        "user": "U05UXJYANCT",
+        "ts": "1696928710.064829",
+        "app_id": "A05VAARA4JV",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N20=v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A wave is a disturbance that travels through a medium, such as air or water. Waves can be caused by a variety of sources, such as wind, earthquakes, and sound. Waves can also be generated artificially, such as with a loudspeaker. Waves can be described by their amplitude, frequency, and wavelength."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05VAB47JJD",
+            "app_id": "A05VAARA4JV",
+            "name": "VictorBot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696339520,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696928679.500669",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "0c85ce5d-7a44-462a-b05f-8b040c0748f7",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939051.313309",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xe9JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "835768d6-2b58-4b60-9ea0-d39a8426bbb4",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939271.652899",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xe9JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "7b55123d-53c1-4f14-aa07-4b1219993fca",
+        "type": "message",
+        "text": "<@U05UXJYANCT> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939363.949189",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GA0YE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696939363.949189",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1696939366.619739",
+        "reply_users": [
+            "U05UXJYANCT"
+        ],
+        "replies": [
+            {
+                "user": "U05UXJYANCT",
+                "ts": "1696939366.619739"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696939366.619739"
+    },
+    {
+        "bot_id": "B05VAB47JJD",
+        "type": "message",
+        "text": " NATO was created in 1949 as a response to the threat of Soviet expansionism in Europe. It was designed to provide a collective security system for its members, allowing them to respond to any aggression with a unified response. NATO has since grown to include 29 member states and is seen as a cornerstone of international security.",
+        "user": "U05UXJYANCT",
+        "ts": "1696939366.619739",
+        "app_id": "A05VAARA4JV",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oUwlm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "NATO was created in 1949 as a response to the threat of Soviet expansionism in Europe. It was designed to provide a collective security system for its members, allowing them to respond to any aggression with a unified response. NATO has since grown to include 29 member states and is seen as a cornerstone of international security."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05VAB47JJD",
+            "app_id": "A05VAARA4JV",
+            "name": "VictorBot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696339520,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696939363.949189",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "641dd644-c40d-4bd4-b0e6-2bac497c1f9b",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939391.491699",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xe9JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "4fdbaf78-926b-4ed0-8c6d-6895652374ca",
+        "type": "message",
+        "text": "<@U05UXJYANCT> hello",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939691.689459",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rq8KS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " hello"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "64365d3c-15de-44e1-aaea-f98a55918e5a",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939703.561279",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xe9JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "daff401a-8292-4ca5-8aa7-dced7bcca358",
+        "type": "message",
+        "text": "<@U05UXJYANCT> hello",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939980.033389",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rq8KS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " hello"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "8f7b196a-14bd-493b-a1cb-f4794220cf30",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939983.285469",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xe9JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "b935d134-56f7-4306-9522-00e7c27d1ead",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> why was nato created ?",
+        "user": "U05UJ8XLN78",
+        "ts": "1696939992.247889",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xe9JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " why was nato created ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "5835e22d-0461-4f93-aa2b-69eded7e72ed",
+        "type": "message",
+        "text": "what is cat",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941069.111119",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uYVDf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what is cat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "469abf0f-99a4-4738-bd85-e2c179c8e6d9",
+        "type": "message",
+        "text": "<@U05UXJYANCT> what is cat",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941080.599009",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MjHOD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UXJYANCT"
+                            },
+                            {
+                                "type": "text",
+                                "text": " what is cat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696941080.599009",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1696941082.827639",
+        "reply_users": [
+            "U05UXJYANCT"
+        ],
+        "replies": [
+            {
+                "user": "U05UXJYANCT",
+                "ts": "1696941082.827639"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696941082.827639"
+    },
+    {
+        "bot_id": "B05VAB47JJD",
+        "type": "message",
+        "text": " A cat is a small, domesticated mammal that is often kept as a pet. Cats are known for their playful personalities and their ability to hunt small animals. They are also known for their independent nature and their ability to purr.",
+        "user": "U05UXJYANCT",
+        "ts": "1696941082.827639",
+        "app_id": "A05VAARA4JV",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4BWh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A cat is a small, domesticated mammal that is often kept as a pet. Cats are known for their playful personalities and their ability to hunt small animals. They are also known for their independent nature and their ability to purr."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05VAB47JJD",
+            "app_id": "A05VAARA4JV",
+            "name": "VictorBot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696339520,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696941080.599009",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "cbe71333-9daf-4445-bb8f-88c43056828f",
+        "type": "message",
+        "text": "hi",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941172.461699",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a8bcU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "1bae79d4-7398-4b9d-a77b-ff513ff69c11",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> hi",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941180.910269",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DBDQE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696941180.910269",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1696941181.635419",
+        "reply_users": [
+            "U05UWLHNBUJ"
+        ],
+        "replies": [
+            {
+                "user": "U05UWLHNBUJ",
+                "ts": "1696941181.635419"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696941181.635419"
+    },
+    {
+        "bot_id": "B05UTNSGNTF",
+        "type": "message",
+        "text": "chatgpt_chain.predict(human_input=text)",
+        "user": "U05UWLHNBUJ",
+        "ts": "1696941181.635419",
+        "app_id": "A05UWKLMZQA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jeA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "chatgpt_chain.predict(human_input=text)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05UTNSGNTF",
+            "app_id": "A05UWKLMZQA",
+            "name": "privateGPT bot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696325926,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696941180.910269",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "3a0190ab-7829-44fe-b62a-81a11cce4e29",
+        "type": "message",
+        "text": "hi",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941361.836309",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a8bcU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    },
+    {
+        "client_msg_id": "88b904b4-7fa0-4ec0-a30f-643c7d493217",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> hello",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941603.704479",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RdA+3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " hello"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696941603.704479",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1696941841.505579",
+        "reply_users": [
+            "U05UWLHNBUJ",
+            "U05UJ8XLN78"
+        ],
+        "replies": [
+            {
+                "user": "U05UWLHNBUJ",
+                "ts": "1696941818.050289"
+            },
+            {
+                "user": "U05UJ8XLN78",
+                "ts": "1696941841.505579"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1696941841.505579"
+    },
+    {
+        "bot_id": "B05UTNSGNTF",
+        "type": "message",
+        "text": " I'm sorry, but the context provided does not contain any information about a specific question or topic to answer with an \"answer.\" Can you please provide more details so that I can assist you better?",
+        "user": "U05UWLHNBUJ",
+        "ts": "1696941818.050289",
+        "app_id": "A05UWKLMZQA",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N6Zsj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm sorry, but the context provided does not contain any information about a specific question or topic to answer with an \"answer.\" Can you please provide more details so that I can assist you better?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "bot_profile": {
+            "id": "B05UTNSGNTF",
+            "app_id": "A05UWKLMZQA",
+            "name": "privateGPT bot",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1696325926,
+            "team_id": "T05UQTU5HPC"
+        },
+        "thread_ts": "1696941603.704479",
+        "parent_user_id": "U05UJ8XLN78"
+    },
+    {
+        "client_msg_id": "b8a55c1b-5e67-4c02-ad2c-cef814926303",
+        "type": "message",
+        "text": "egg mc muffin",
+        "user": "U05UJ8XLN78",
+        "ts": "1696941841.505579",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YyyWo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "egg mc muffin"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "victor.tran",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1696941603.704479",
+        "parent_user_id": "U05UJ8XLN78"
+    }
+]

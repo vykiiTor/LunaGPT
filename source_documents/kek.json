@@ -1,0 +1,44 @@
+[
+    {
+        "client_msg_id": "771a2ca5-8a31-42b8-bdb7-4fd9a5038237",
+        "type": "message",
+        "text": "<@U05UWLHNBUJ> yo",
+        "user": "U05UJ8XLN78",
+        "ts": "1696326798.056929",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tuCcT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U05UWLHNBUJ"
+                            },
+                            {
+                                "type": "text",
+                                "text": " yo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T05UQTU5HPC",
+        "user_team": "T05UQTU5HPC",
+        "source_team": "T05UQTU5HPC",
+        "user_profile": {
+            "avatar_hash": "g962b189f8eb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/962b189f8eb592d3067508f0733d293f.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "victor.​tran",
+            "real_name": "victor.​tran",
+            "display_name": "",
+            "team": "T05UQTU5HPC",
+            "name": "EGGGGGG",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]
