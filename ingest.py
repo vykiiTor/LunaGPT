@@ -12,6 +12,10 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 from datetime import datetime
 
+import logging
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
+
 from langchain.document_loaders import (
     CSVLoader,
     EverNoteLoader,
@@ -47,29 +51,47 @@ embeddings_model_name = os.environ.get('EMBEDDINGS_MODEL_NAME')
 chunk_size = 500
 chunk_overlap = 50
 
-# Create a function to extract and filter JSON data
-def extract_and_filter_json(json_file):
-    with open(json_file, "r") as json_file:
-        data = json.load(json_file)
 
-    filtered_data = []
+#Create a function to get and filter json data with api
+def extract_and_filter_json():
 
-    for item in data:
-        if all(key in item for key in ["type", "text", "ts", "user"]):
-            user_profile = item.get("user_profile", {})
-            user_name = user_profile.get("name", "")
-            ts_to_date = datetime.utcfromtimestamp(float(item['ts']))
-            date_time = ts_to_date.strftime("%m/%d/%Y, %H:%M")
+    client = WebClient(token=os.environ.get("SLACK_BOT_TOKEN"))
+    logger = logging.getLogger(__name__)
+    channel_id = os.environ.get("CHANNEL_ID")
+    try:
 
-            filtered_data.append({
-                "type": item["type"],
-                "text": item["text"],
-                "ts": date_time,
-                "user": item["user"],
-                "user_name": user_name
-            })
+        result = client.conversations_history(channel=channel_id)
+        #conversation_history = result["messages"]
+        # #logger.info("{} messages found in {}".format(len(conversation_history), channel_id))
+        filtered_data = []
+        #print(result['messages'])
 
-    return filtered_data
+        print("---------")
+        print("---------")
+        for item in result['messages']:
+            if all(key in item for key in ["type", "text", "ts", "user"]):
+                ts_to_date = datetime.utcfromtimestamp(float(item['ts']))
+                date_time = ts_to_date.strftime("%m/%d/%Y, %H:%M")
+                
+                user_info = client.users_info(user = item["user"])
+                if user_info['ok']:
+                    user_name = user_info['user']['real_name']
+                else:
+                    user_name = ''
+                
+                filtered_data.append({
+                    "type": item["type"],
+                    "text": item["text"],
+                    "ts": date_time,
+                    "user": item["user"],
+                    "user_name": user_name
+                })
+        return filtered_data
+
+    except SlackApiError as e:
+        logger.error("Error creating conversation: {}".format(e))
+
+
 def json_slack_to_pdf():
     current_directory = os.getcwd()
 
@@ -78,26 +100,25 @@ def json_slack_to_pdf():
     # List of JSON files in the directory
     json_files = [os.path.join(json_directory, file) for file in os.listdir(json_directory) if file.endswith(".json")]
 
-    # Create a PDF document
     pdf_filename = os.path.join(json_directory, "filtered_data.pdf")
     doc = SimpleDocTemplate(pdf_filename, pagesize=letter)
 
-    story = []
+    content = []
 
+    # Define a style for the paragraphs
     styles = getSampleStyleSheet()
     style = styles["Normal"]
 
     # Process each JSON file in the directory
-    for json_file in json_files:
-        filtered_data = extract_and_filter_json(json_file)
+    #for json_file in json_files:
+    filtered_data = extract_and_filter_json()
     
-        # Add the filtered data to the PDF
-        for item in filtered_data:
-            text = f"Type: {item['type']}\nText: {item['text']}\nTimestamp: {item['ts']}\nUser: {item['user']}\nUser Name: {item['user_name']}\n\n"
-            p = Paragraph(text, style)
-            story.append(p)
+    for item in filtered_data:
+        text = f"Text: {item['text']}\nTimestamp: {item['ts']}\nUser Name: {item['user_name']}\n\n"
+        p = Paragraph(text, style)
+        content.append(p)
 
-    doc.build(story)
+    doc.build(content)
     # Delete the old JSON files
     #for json_file in json_files:
         #os.remove(json_file)
