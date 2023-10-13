@@ -97,7 +97,8 @@ def json_slack_to_pdf():
     
         # Add the filtered data to the PDF
         for item in filtered_data:
-            text = f"Type: {item['type']}\nText: {item['text']}\nTimestamp: {item['ts']}\nUser: {item['user']}\nUser Name: {item['user_name']}\n\n"
+            #text = f"Type: {item['type']}\nText: {item['text']}\nTimestamp: {item['ts']}\nUser: {item['user']}\nUser Name: {item['user_name']}\n\n"
+            text = f"Text: {item['text']}\nTimestamp: {item['ts']}\nUser Name: {item['user_name']}\n\n"
             p = Paragraph(text, style)
             story.append(p)
 
